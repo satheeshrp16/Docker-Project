@@ -1,4 +1,5 @@
 FROM python:3.7
+RUN /var/lib/jenkins/workspace/project1@tmp/durable-fcc1c432/script.sh
 RUN pip install flask
 RUN pip install MySQL
 RUN pip install requests
