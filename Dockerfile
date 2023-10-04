@@ -1,5 +1,6 @@
 FROM python:3.7
 RUN pip install flask
+RUN pip install flask -y
 RUN pip install MySQL
 RUN pip install requests
 RUN pip install flask_mysqldb
