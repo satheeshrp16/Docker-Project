@@ -1,4 +1,5 @@
 FROM python:3.7
+RUN pip install --update pip
 RUN pip install Flask
 RUN pip install MySQL
 RUN pip install requests
